@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="entry_div">
+          <input type="text" id="entry" />
+        </div>
+        <div class="buttons_div">
+          <div class="dcb">
+            <button
+              onclick="del()"
+              style="background-color: red; width: 3rem; font-size: 1rem"
+            >
+              DEL
+            </button>
+            <button
+              onclick="clr()"
+              style="
+                background-color: red;
+                width: 3rem;
+                font-size: 1rem;
+                right: 0px;
+              "
+            >
+              CLR
+            </button>
+          </div>
+
+          <br />
+          <button onclick="enter(7)">7</button>
+          <button onclick="enter(8)">8</button>
+          <button onclick="enter(9)">9</button>
+          <button onclick="enter('+')">+</button>
+          <br />
+          <button onclick="enter(4)">4</button>
+          <button onclick="enter(5)">5</button>
+          <button onclick="enter(6)">6</button>
+          <button onclick="enter('-')">-</button>
+          <br />
+          <button onclick="enter(1)">1</button>
+          <button onclick="enter(2)">2</button>
+          <button onclick="enter(3)">3</button>
+          <button onclick="enter('*')">*</button>
+          <br />
+          <button onclick="enter(0)">0</button>
+          <button onclick="enter('.')">.</button>
+          <button onclick="enter('/')">/</button>
+          <button style="background-color: black" onclick="equel()">=</button>
+
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
