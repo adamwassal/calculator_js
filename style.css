@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+#entry {
+  outline: none;
+  padding: 5px;
+  width: 13rem;
+  font-size: 1rem;
+
+}
+
+.buttons_div {
+  margin-top: 0.5rem;
+}
+
+.buttons_div button {
+  width: 3rem;
+  padding: 0.2rem;
+  margin: 0.4rem;
+  background-color: blueviolet;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.buttons_div button:hover {
+    background-color: rgb(145, 15, 150);
+    color: white;
+    border: solid blueviolet;
+    cursor: pointer;
+}
+
+.buttons_div button:active {
+    width: 2rem;
+    padding: 0.0rem;
+}
+
+.dcb {
+    display: flex;
+    justify-content: space-between;
+}
